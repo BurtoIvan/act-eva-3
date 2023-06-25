@@ -1,0 +1,56 @@
+.blog-container {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.blog-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-gallery {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: width 0.3s, height 0.3s;
+}
+
+.photo.selected {
+  width: 400px;
+  height: 400px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.selected-photo-comments {
+  margin-top: 20px;
+}
+
+.selected-photo-comments .comment {
+  background-color: #b82424;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+.header-container {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto en color blanco */
+  }
+  
+  .nav-menu {
+    display: flex; /* Mostrar los elementos en línea */
+    list-style-type: none; /* Eliminar los estilos de lista */
+    padding: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: white; /* Texto en color blanco */
+    margin-right: 10px; /* Espacio entre los enlaces */
+    border: 1px solid white; /* Contorno de 1px blanco */
+    padding: 5px 10px; /* Espacio interno de los botones */
+  }
+  
+  .nav-link:hover {
+    background-color: white; /* Fondo blanco al pasar el mouse */
+    color: black; /* Texto en color negro */
+  }
+  
